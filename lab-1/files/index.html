@@ -1,0 +1,39 @@
+<!doctype html>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+</style>
+
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>ЛОИС ЛР 2, 821704 Пантелей</title>
+    </head>
+
+    <body>
+        <div>
+            <div id="pageTitle"><h1>Являются ли формулы сокращенного языка логики высказываний <b>равносильными</b>?</h1></div>
+            <p id="messageText"></p>
+            <p id="result"></p>
+    
+            <div id="building" style="text-align: center;">
+                <input id="formulaInput1" type="text">
+                <input id="formulaInput2" type="text">
+                <button class="button" type="submit" onclick="build()"><span>Проверить</span></button>
+            </div>
+            
+            <br>
+            <div class="row" style="padding-left: 15%;">
+                <div class="column" id="table1"></div>
+                <div class="column" id="table2"></div>
+            </div>
+
+            <br>
+
+            <div id="questLink"><span>Для проверки знаний по теме можно пройти <a href="quest.html">тест</a></span></div>
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+</html>
